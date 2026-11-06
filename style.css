@@ -17,7 +17,7 @@
     --color-secondary: #7c3aed;
     --color-background: #f8fafc;
     --color-text: #1e293b;
-    --color-muted: #64748b;
+    --color-muted: #395377;
     --color-primary-light: #60a5fa;
     --color-primary-dark: #1d4ed8;
 }
@@ -134,4 +134,11 @@ textarea:focus {
     border-radius: 6px;
     font-family: inherit;
     font-size: var(--font-base);
+}
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
